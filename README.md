@@ -1,8 +1,6 @@
-# 2023 年 6 月告知
-作者已于本月硕士毕业，脱离了校园网环境，N1 也随之退役。未来本项目仍会利用 GitHub Actions 自动更新，但不会再积极增删功能或调试配置，望各位周知。有疑问仍可到[讨论区](https://github.com/nantayo/N1-OpenWrt/discussions)提问，作者有空也会予以解答。
-***
 # 项目简介
-本固件适配斐讯 N1 旁路由模式，追求轻量，包含默认皮肤、IPv6 支持，以及下列 luci-app：<br>
+本固件适配斐讯 N1 旁路由模式，追求轻量（请注意：不具备 PPPoE、WiFi 相关功能）。<br>
+固件包含默认皮肤、完整 IPv6 支持，以及下列 luci-app：<br>
 [luci-app-amlogic](https://github.com/ophub/luci-app-amlogic)：系统更新、文件传输、CPU 调频等<br>
 luci-app-dockerman：docker 管理<br>
 [luci-app-mosdns](https://github.com/sbwml/luci-app-mosdns)：DNS 处理器。可去广告、缓存 DNS、防泄漏等<br>
