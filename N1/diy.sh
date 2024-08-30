@@ -10,6 +10,5 @@ echo "iptables -t nat -I POSTROUTING -o eth0 -j MASQUERADE" >> package/network/c
 rm -rf feeds/luci/applications/luci-app-passwall
 
 # Add packages
-git clone https://github.com/JohnstonIrene/My-Pkg package/my-pkg
-git clone --depth=1 https://github.com/fw876/helloworld.git package/helloworld
+git clone https://github.com/nantayo/My-Pkg package/my-pkg
 git clone --depth=1 https://github.com/ophub/luci-app-amlogic package/amlogic
