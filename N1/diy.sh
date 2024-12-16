@@ -10,7 +10,7 @@ echo "iptables -t nat -I POSTROUTING -o eth0 -j MASQUERADE" >> package/network/c
 git clone https://github.com/ophub/luci-app-amlogic --depth=1 package/amlogic
 
 # Update packages
-mv package/amlogic/luci-app-amlogic feeds/luci/applications/
+cp -fr package/amlogic/luci-app-amlogic feeds/luci/applications/
 
 # Clean packages
 rm -rf package/amlogic
