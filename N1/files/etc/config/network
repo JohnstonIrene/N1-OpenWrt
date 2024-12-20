@@ -18,6 +18,11 @@ config interface 'lan'
 	option delegate '0'
 
 config device
+	option name 'br-lan'
+	option type 'bridge'
+	list ports 'eth0'
+
+config device
 	option type 'bridge'
 	option name 'docker0'
 
