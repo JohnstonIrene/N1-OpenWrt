@@ -103,10 +103,9 @@ jobs:
         WHOAMI: jzq
         SW_FLOWOFFLOAD: 0
         SFE_FLOW: 0
-        ENABLE_WIFI_K510: 0
 
     - name: Upload firmware to release
-      uses: softprops/action-gh-release@v2.1.0
+      uses: softprops/action-gh-release@master
       if: ${{ env.PACKAGED_STATUS == 'success' }} && !cancelled()
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
