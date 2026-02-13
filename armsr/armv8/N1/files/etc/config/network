@@ -22,4 +22,5 @@ config device
 	option name 'docker0'
 
 config globals 'globals'
-	option packet_steering '1'
+	option packet_steering '2'
+	option steering_flows '256'
