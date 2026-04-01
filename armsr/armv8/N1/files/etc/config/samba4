@@ -6,8 +6,8 @@ config samba
 	option disable_netbios '1'
 
 config sambashare
-	option name 'OpenWrt'
-	option path '/mnt/mmcblk2p4/N1'
+	option name 'Phicomm N1'
+	option path '/mnt/mmcblk2p4/n1'
 	option read_only 'no'
 	option force_root '1'
 	option guest_ok 'yes'
